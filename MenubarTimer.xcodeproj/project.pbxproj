@@ -18,6 +18,10 @@
 		556A3B78179BFFC8000E7995 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556A3B74179BFFC8000E7995 /* StatusHighlighted@2x.png */; };
 		556A3B7C179C01BF000E7995 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 556A3B7B179C01BF000E7995 /* StatusItemView.m */; };
 		556A3B80179C02DE000E7995 /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556A3B7F179C02DE000E7995 /* MenubarController.m */; };
+		556A3B87179C4CB0000E7995 /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556A3B85179C4CB0000E7995 /* PanelController.m */; };
+		556A3B8A179C4CE9000E7995 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556A3B89179C4CE9000E7995 /* Panel.xib */; };
+		556A3B8D179C6B25000E7995 /* Panel.m in Sources */ = {isa = PBXBuildFile; fileRef = 556A3B8C179C6B25000E7995 /* Panel.m */; };
+		556A3B90179C6B5A000E7995 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 556A3B8F179C6B5A000E7995 /* BackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,13 @@
 		556A3B7B179C01BF000E7995 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
 		556A3B7E179C02DE000E7995 /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenubarController.h; sourceTree = "<group>"; };
 		556A3B7F179C02DE000E7995 /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenubarController.m; sourceTree = "<group>"; };
+		556A3B84179C4CB0000E7995 /* PanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelController.h; sourceTree = "<group>"; };
+		556A3B85179C4CB0000E7995 /* PanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelController.m; sourceTree = "<group>"; };
+		556A3B89179C4CE9000E7995 /* Panel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Panel.xib; sourceTree = "<group>"; };
+		556A3B8B179C6B25000E7995 /* Panel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Panel.h; sourceTree = "<group>"; };
+		556A3B8C179C6B25000E7995 /* Panel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panel.m; sourceTree = "<group>"; };
+		556A3B8E179C6B5A000E7995 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		556A3B8F179C6B5A000E7995 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +109,8 @@
 		556A3B5C179BFEBC000E7995 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				556A3B7D179C02CE000E7995 /* Controllers */,
 				556A3B79179C01AF000E7995 /* Views */,
+				556A3B7D179C02CE000E7995 /* Controllers */,
 				556A3B5D179BFEBC000E7995 /* AppDelegate.h */,
 				556A3B5E179BFEBC000E7995 /* AppDelegate.m */,
 			);
@@ -111,6 +122,7 @@
 			children = (
 				556A3B70179BFFC8000E7995 /* MenubarIcons */,
 				556A3B60179BFEBC000E7995 /* MainMenu.xib */,
+				556A3B89179C4CE9000E7995 /* Panel.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -150,6 +162,10 @@
 			children = (
 				556A3B7A179C01BF000E7995 /* StatusItemView.h */,
 				556A3B7B179C01BF000E7995 /* StatusItemView.m */,
+				556A3B8B179C6B25000E7995 /* Panel.h */,
+				556A3B8C179C6B25000E7995 /* Panel.m */,
+				556A3B8E179C6B5A000E7995 /* BackgroundView.h */,
+				556A3B8F179C6B5A000E7995 /* BackgroundView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +175,8 @@
 			children = (
 				556A3B7E179C02DE000E7995 /* MenubarController.h */,
 				556A3B7F179C02DE000E7995 /* MenubarController.m */,
+				556A3B84179C4CB0000E7995 /* PanelController.h */,
+				556A3B85179C4CB0000E7995 /* PanelController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -221,6 +239,7 @@
 				556A3B76179BFFC8000E7995 /* Status@2x.png in Resources */,
 				556A3B77179BFFC8000E7995 /* StatusHighlighted.png in Resources */,
 				556A3B78179BFFC8000E7995 /* StatusHighlighted@2x.png in Resources */,
+				556A3B8A179C4CE9000E7995 /* Panel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +270,9 @@
 				556A3B6A179BFEBC000E7995 /* main.m in Sources */,
 				556A3B7C179C01BF000E7995 /* StatusItemView.m in Sources */,
 				556A3B80179C02DE000E7995 /* MenubarController.m in Sources */,
+				556A3B87179C4CB0000E7995 /* PanelController.m in Sources */,
+				556A3B8D179C6B25000E7995 /* Panel.m in Sources */,
+				556A3B90179C6B5A000E7995 /* BackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
