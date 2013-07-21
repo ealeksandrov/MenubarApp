@@ -1,0 +1,21 @@
+#OS noise
+profile
+[Tt]humbs.db
+*.DS_Store
+*~
+*.swp
+*.out
+*.bak*
+*.lock
+
+#Xcode noise
+*.log
+*~.nib
+*.moved-aside
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!xcshareddata
+
+#Project files
+[Bb]uild/
+DerivedData/
